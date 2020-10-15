@@ -268,5 +268,8 @@
         <cucumber.jvm.version>1.2.5</cucumber.jvm.version>
         <cucumber-reporting.version>3.18.0</cucumber-reporting.version>
         <rest-assured.version>2.9.0</rest-assured.version>
+	<sonar.projectKey>freddyfernando_testing-examples</sonar.projectKey>
+	<sonar.organization>freddyfernando</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 </project>
