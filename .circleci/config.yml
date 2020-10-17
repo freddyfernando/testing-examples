@@ -1,13 +1,13 @@
 version: 2.1
-
+orbs:
+  sonarqube: clicklogiq/sonarqube@0.0.2
 jobs:
   build:
     docker:
       - image: 'circleci/openjdk:11-jdk'
     steps:
       - checkout
-      - orbs:
-         sonarqube: clicklogiq/sonarqube@0.0.2
+
 
 #       - run:
 #           name: Analyze on SonarCloud
