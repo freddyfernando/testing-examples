@@ -6,9 +6,8 @@ jobs:
       - image: 'circleci/openjdk:11-jdk'
     steps:
       - checkout
-      - sonarcloud/scan
-orbs:
- sonarqube: clicklogiq/sonarqube@0.0.2
+    orbs:
+     sonarqube: clicklogiq/sonarqube@0.0.2
 
 #       - run:
 #           name: Analyze on SonarCloud
